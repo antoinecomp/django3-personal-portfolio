@@ -26,7 +26,7 @@ SECRET_KEY = '_f_06%k-+5g5d4&d%m71q4&94jv$17i*cs&jn--g-ff*2j3r!c'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['antoinecoppin.pythonanywhere.com']
+ALLOWED_HOSTS = ['www.computeexperts.com']
 
 
 # Application definition
