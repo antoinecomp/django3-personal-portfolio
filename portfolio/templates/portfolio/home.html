@@ -4,6 +4,16 @@
 
 {% block content %}
 
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-V51YR2QF7N"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-V51YR2QF7N');
+</script>
+
 <div class="row justify-content-center my-3">
   <div class="col-5 text-center">
     <img src="{% static 'portfolio/mario.png' %}" class="img-fluid">
